@@ -1,4 +1,4 @@
-var i = 0;
+var i = 1;
 var wort = $("img").attr("id");
 var j = 42;
 
