@@ -11,7 +11,7 @@ $(".image").on("click","img", function() {
 		console.log($("#" + wort).attr("src"));
 	}
 	else {
-		var imageAddress = "../images/" + wort + "-" + j + ".png";
+		var imageAddress = "../images/" + wort + "/" + wort + "-" + j + ".png";
 		$("#"+ wort).attr("src",imageAddress);
 		console.log($("#" + wort).attr("src"));
 	}
