@@ -2,10 +2,10 @@ var i = 1;
 var wort = $("img").attr("id");
 
 var limit;
-if (wort=="auto") {
+if (wort == "auto") {
 	limit = 42;
 }
-else if (wort=="hund") {
+else if (wort == "hund") {
 	limit = 2;
 }
 
