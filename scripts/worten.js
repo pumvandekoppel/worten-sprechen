@@ -1,11 +1,12 @@
 var i = 1;
 var wort = $("img").attr("id");
-var j = 42;
+var autoLimit = 42;
+var hundLimit = 2;
 
 $(".image").on("click","img", function() {
 	i++;
 	if (i % j > 0) {
-		i = i % j;
+		i = i % autoLimit;
 		var imageAddress = "../images/" + wort + "/" + wort + "-" + i + ".png";
 		$("#"+ wort).attr("src", imageAddress);
 		console.log($("#" + wort).attr("src"));
