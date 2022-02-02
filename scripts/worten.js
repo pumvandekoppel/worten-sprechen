@@ -1,6 +1,14 @@
 var i = 1;
 var wort = $("img").attr("id");
-var limit = 42;
+
+var limit;
+if (wort=="auto") {
+	limit = 42;
+}
+else if (wort=="hund") {
+	limit = 2;
+}
+
 $(".image").on("click","img", function() {
 	i++;
 	if (i % limit > 0) {
