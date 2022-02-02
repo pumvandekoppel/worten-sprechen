@@ -13,12 +13,12 @@ $(".image").on("click","img", function() {
 	i++;
 	if (i % limit > 0) {
 		i = i % limit;
-		var imageAddress = "../images/" + wort + "/" + wort + "-" + i + ".png";
+		var imageAddress = "../images/" + wort + "/" + wort + "-" + i + ".jpg";
 		$("#"+ wort).attr("src", imageAddress);
 		console.log($("#" + wort).attr("src"));
 	}
 	else {
-		var imageAddress = "../images/" + wort + "/" + wort + "-" + limit + ".png";
+		var imageAddress = "../images/" + wort + "/" + wort + "-" + limit + ".jpg";
 		$("#"+ wort).attr("src",imageAddress);
 		console.log($("#" + wort).attr("src"));
 	}
