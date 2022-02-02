@@ -6,12 +6,12 @@ $(".image").on("click","img", function() {
 	i++;
 	if (i % j > 0) {
 		i = i % j;
-		var imageAddress = "../../images/" + wort + "-images/" + wort + "-" + i + ".png";
+		var imageAddress = "../../images/" + wort + "-" + i + ".png";
 		$("#"+ wort).attr("src", imageAddress);
 		console.log($("#" + wort).attr("src"));
 	}
 	else {
-		var imageAddress = "../../images/" + wort + "-images/" + wort + "-" + j + ".png";
+		var imageAddress = "../../images/ + wort + "-" + j + ".png";
 		$("#"+ wort).attr("src",imageAddress);
 		console.log($("#" + wort).attr("src"));
 	}
