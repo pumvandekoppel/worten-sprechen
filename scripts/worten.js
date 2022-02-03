@@ -12,6 +12,10 @@ else if (wort == "baum") {
 	 limit = 28;
 }
 
+$(".image").on("hover", "img", function() {
+}
+);
+
 $(".image").on("click","img", function() {
 	i++;
 	if (i % limit > 0) {
