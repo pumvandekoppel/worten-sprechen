@@ -8,7 +8,7 @@ if (wort == "auto") {
 else if (wort == "hund") {
 	limit = 2;
 }
-else if (wort == "baum) {
+else if (wort == "baum") {
 	 limit = 28;
 }
 
